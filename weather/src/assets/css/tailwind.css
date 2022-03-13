@@ -1,0 +1,74 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Generic Css */
+
+@layer base {
+
+  .h0 {
+    @apply font-bold lg:text-5xl md:text-3xl sm:text-2xl;
+  }
+
+  h1,.h1 {
+    @apply font-bold text-2xl;
+  }
+
+  h2,.h2 {
+    @apply font-semibold text-xl; 
+  }
+
+  h3,.h3 {
+    @apply font-semibold text-base;
+  }
+
+  h4,.h4 {
+    @apply font-semibold text-sm;
+  }
+
+  h4,.h5 {
+    @apply font-semibold text-xs;
+  }
+
+  body {
+      @apply font-sans;
+  }
+
+  .app-wt-padding-4 {
+      @apply p-4
+  }
+
+  .app-wt-margin-4 {
+      @apply m-4
+  }
+
+  .app-wt-padding-2 {
+      @apply p-4
+  }
+
+  .app-wt-margin-2 {
+      @apply m-4
+  }
+
+  .app-wt-border-color {
+      @apply border-neutral-200
+  }
+
+  .app-wt-center {
+    @apply mx-auto
+  }
+
+  .app-wt-row {
+      @apply flex flex-row
+  }
+
+  .app-wt-col {
+      @apply flex flex-col
+  }
+
+  .app-wt-flex-center {
+      @apply flex justify-center
+  }
+}
